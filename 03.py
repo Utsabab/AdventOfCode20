@@ -7,9 +7,9 @@ def fixInput(data):
             list_data[i] = list_data[i] + temp
     return list_data
 
+
 def part1(data):
     list_data = fixInput(data)
-
     l = len(list_data[0])
     index = 0
     trees = 0
